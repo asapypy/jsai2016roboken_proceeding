@@ -7,3 +7,6 @@ make
 ```
 
 texlive2015 should be required.
+
+encoding is utf-8
+
