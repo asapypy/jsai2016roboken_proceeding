@@ -1,0 +1,45 @@
+%%% This is my maniac expression for math
+%%% Author: Shinichi ASAKAWA <asakawa@twcu.ac.jp>
+%%% Last Updated: Sat Nov 20 02:50:36 JST 1999
+%\usepackage{amsmath}
+%\usepackage{amsfonts}
+\newcommand{\mb}[1]{\mbox{\boldmath $#1$}}
+\newcommand{\MB}[1]{\mathbf{#1}}
+\newcommand{\Det}[1]{\mbox{det}\left(#1\right)}
+\newcommand{\Tr}{\mbox{tr}\;}
+\newcommand{\Rank}{\mbox{rank}\;}
+\newcommand{\Dim}{\mbox{dim}}
+\newcommand{\IP}[2]{\left(#1\cdot#2\right)}
+\newcommand{\IPG}[2]{\left|\mb{#1}\right|\;\left|\mb{#2}\right|\;\cos\theta_{#1#2}}
+\newcommand{\Norm}[1]{\left|#1\right|}
+\newcommand{\NSQ}[1]{\left|\mb{#1}\right|^2}
+\newcommand{\Brc}[1]{\left(#1\right)}
+\newcommand{\BRc}[1]{\left[{#1}\right]}
+\newcommand{\BRC}[1]{\left\{{#1}\right\}}
+\newcommand{\Prj}[1]{\mb{#1}\Brc{\mb{#1}'\mb{#1}}^{-1}\mb{#1}'}
+\newcommand{\RegP}[2]{\Brc{\mb{#1}'\mb{#1}}^{-1}\mb{#1}'\mb{#2}}
+\newcommand{\APx}{\mb{P_X^\bot}}
+%\newcommand{\Hat}[1]{\widehat{#1}}
+%\newcommand{\Bar}[1]{\overline{\;#1\;}}
+%%% These two commands above have been defined in amsfonts.sty
+%%% comment out at 11-Apr.-2000
+
+\newcommand\e{\mbox{\,\Large\it e\,}}
+\newcommand\DS{\displaystyle}
+% Use \binom instead of \Comb below
+%\newcommand{\Comb}[2]{
+%\Brc{\begin{array}{c}{#1}\\{#2}\end{array}}
+%}
+\def\bbbr{{\rm I\!R}} %reelle Zahlen
+\newcommand{\argmin}{\mathop{\rm argmin}\limits}
+\newcommand{\argmax}{\mathop{\rm argmin}\limits}
+
+\newcommand{\TILDE}[1]{\widetilde{#1}}
+\newcommand{\HAT}[1]{\widehat{#1}}
+\newcommand{\T}{^{T}}
+
+%\newcommand{\Hat}[1]{\widehat{#1}}
+\newcommand{\Abs}[1]{\left|{#1}\right|}
+\newcommand{\Given}[1]{\left|{#1}\right.}
+
+\newcommand{\Gmb}[1]{\pmb{#1}}
